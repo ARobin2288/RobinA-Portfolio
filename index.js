@@ -1,4 +1,4 @@
-var quoteArray = ["Frontend Developer | DIY Creator"];
+var quoteArray = ["Frontend Developer & DIY Creator"];
 var textPosition = 0;
 var speed = 100;
 

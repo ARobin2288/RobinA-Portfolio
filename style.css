@@ -1,4 +1,37 @@
-#typewriter {
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: steelblue;
+    display: inline-flex;
+    width: 100%;
+    height: max-content;
+    text-align: center;
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+
+
+
+
+
+
+#typewriter span {
     animation: blinker 1s linear infinite;
 }
 
