@@ -36,17 +36,27 @@ nav a {
     padding: 1px 22px;
     transition: all .2s ease-out;
     padding: 6px;
-
+    box-sizing: border-box;
+    font-family: 'Special Elite', cursive;
 }
 
 nav a:hover {
     color: #ee5455;
 }
 
+#coding-link {
+    margin-left: -40px;
+}
+
+#crafting-link {
+    margin-right: -40px;
+}
+
 #contact-link {
     text-decoration: none;
-    border: 1px solid;
+    border: 1px solid rgba(245, 222, 179, 0.603);
     background-color: rgb(31, 29, 29);
+    padding-top: 10px;
 }
 
 @media (max-width: 1000px) {
@@ -85,10 +95,26 @@ main {
     background-color: #BAC964;
     margin-left: -8px;
     margin-right: -8px;
+    color: rgb(49, 45, 38);
+}
+
+#welcome-section h1 {
+    font-size: 88px;
+    letter-spacing: 2px;
+    font-family: 'Zilla Slab', serif;
+    padding-bottom: 88px;
+    font-weight: 300;
+}
+
+#welcome-section h2 {
+    letter-spacing: 1.5px;
+    font-size: 24px;
+    font-family: 'Special Elite', cursive;
 }
 
 #typewriter span {
-    animation: blinker 1s linear infinite;
+    animation: blinker 1.5s linear infinite;
+
 }
 
 @keyframes blinker {

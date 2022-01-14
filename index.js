@@ -1,6 +1,6 @@
-var quoteArray = ["Frontend Developer & DIY Creator"];
+var quoteArray = ["Frontend Developer & DIY Crafter"];
 var textPosition = 0;
-var speed = 100;
+var speed = 200;
 
 typewriter = () => {
     document.querySelector("#typewriter").innerHTML = 
@@ -8,6 +8,6 @@ typewriter = () => {
 
     if(textPosition++ != quoteArray[0].length)
     setTimeout(typewriter, speed);
-}
+};
 
 window.addEventListener("load", typewriter);
