@@ -1,4 +1,4 @@
-header {
+nav {
     margin: 0 auto;
     display: inline-flex;
     background-color: rgb(51, 51, 51);
@@ -7,35 +7,25 @@ header {
     left: 0;
     width: 100%;
     height: 78px;
-}
-
-#navbar {
-    margin: auto 0;
-    display: flex;
     justify-content: space-evenly;
     text-align: center;
-    width: 100%;
 }
 
 #navbar .nav-img {
     position: fixed;
-    margin-top: -28px;
     background-color: rgb(51, 51, 51);
-    border-radius: 100px;
+    border-radius: 80px;
 }
 
 nav a {
+    margin-top: 26px;
+    width: 100%;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: wheat;
+    color: #FFBF00;
     text-decoration: none;
     font-size: 17px;
-    margin: 0 auto;
-    display: inline-block;
-    text-align: center;
-    padding: 1px 22px;
     transition: all .2s ease-out;
-    padding: 6px;
     box-sizing: border-box;
     font-family: 'Special Elite', cursive;
 }
@@ -45,45 +35,22 @@ nav a:hover {
 }
 
 #coding-link {
-    margin-left: -40px;
+    margin-right: 80px;
 }
 
 #crafting-link {
-    margin-right: -40px;
+    margin-left: 80px;
 }
 
-#contact-link {
-    text-decoration: none;
-    border: 1px solid rgba(245, 222, 179, 0.603);
-    background-color: rgb(31, 29, 29);
-    padding-top: 10px;
-}
-
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
     nav img {
-        width: 98px;
+        width: 78px
     }
-}
-
-@media (max-width: 860px) {
-    nav img {
-        width: 82px;
-    }
-}
-
-@media (max-width: 800px) {
-    nav img {
-        width: 65px;
-    }
-}
-
-@media (max-width: 666px) {
     nav a {
-        font-size: 13px;
-        padding: 1px 2px;
+        font-size: 12px;
     }
-    nav img {
-        width: 45px;
+    #coding-link {
+        margin-right: 0;
     }
 }
 
@@ -92,18 +59,25 @@ main {
     padding-top: 188px;
     padding-bottom: 108px;
     text-align: center;
-    background-color: #BAC964;
+    background-color: #21513A;
     margin-left: -8px;
     margin-right: -8px;
-    color: rgb(49, 45, 38);
+    color: rgb(34, 31, 26);
+}
+
+#welcome-section {
+    margin: 0 auto;
+    margin-top: 78px;
+    height: 100vh;
+    display: block;
 }
 
 #welcome-section h1 {
     font-size: 88px;
     letter-spacing: 2px;
     font-family: 'Zilla Slab', serif;
-    padding-bottom: 48px;
     font-weight: 300;
+    margin-bottom: 22px;
 }
 
 #welcome-section h2 {
@@ -126,5 +100,31 @@ main {
 #projects {
     background-color: rgba(245, 222, 179, 0.61);
     margin: 0 auto;
-    padding-top: 88px;
+}
+
+#projects .row {
+    margin: 0 auto;
+    width: 100%;
+    height: 500px;
+}
+
+#projects .col-6 {
+    padding-top: 28px;
+    text-align: center;
+    background-color: #042f4b;
+    color: #FFBF00;
+}
+
+#dictionaryApp, #weatherApp, #tributePage {
+    background-image: url(./img/Robin.png);
+    background-size: cover;
+}
+
+#projects h1, #projects p {
+    background-color: rgba(51, 51, 51, 0.932);
+}
+
+#projects img {
+    margin: 0 auto;
+    width: 100%;
 }

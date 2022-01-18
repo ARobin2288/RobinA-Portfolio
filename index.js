@@ -1,6 +1,6 @@
 var quoteArray = ["Frontend Developer & DIY Crafter"];
 var textPosition = 0;
-var speed = 200;
+var speed = 188;
 
 typewriter = () => {
     document.querySelector("#typewriter").innerHTML = 
