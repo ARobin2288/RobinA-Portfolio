@@ -1,32 +1,37 @@
 nav {
     margin: 0 auto;
-    display: inline-flex;
-    background-color: rgb(51, 51, 51);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 78px;
     justify-content: space-evenly;
     text-align: center;
 }
 
-#navbar .nav-img {
-    position: fixed;
-    background-color: rgb(51, 51, 51);
-    border-radius: 80px;
+.container {
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+    top: -28px;
+    left: -88px;
 }
 
-nav a {
-    margin-top: 26px;
+.container .links {
+    position: absolute;
+    top: 78px;
+    left: 88px;
+}
+
+.links a, .links p {
+    margin: 0 auto;
+    margin-bottom: 0;
     width: 100%;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #FFBF00;
+    color: black;
     text-decoration: none;
     font-size: 17px;
     transition: all .2s ease-out;
-    box-sizing: border-box;
     font-family: 'Special Elite', cursive;
 }
 
@@ -34,40 +39,26 @@ nav a:hover {
     color: #ee5455;
 }
 
-#coding-link {
-    margin-right: 80px;
-}
-
-#crafting-link {
-    margin-left: 80px;
-}
-
 @media (max-width: 600px) {
-    nav img {
-        width: 78px
-    }
-    nav a {
-        font-size: 12px;
-    }
-    #coding-link {
-        margin-right: 0;
+    .container {
+        left: -8px;
     }
 }
 
 main {
     margin: 0 auto;
-    padding-top: 188px;
+    padding-top: 248px;
     padding-bottom: 108px;
     text-align: center;
-    background-color: #21513A;
     margin-left: -8px;
     margin-right: -8px;
-    color: rgb(34, 31, 26);
+    color: aliceblue;
+    background-image: url(./img/Robinbgrd.png);
+    background-size: cover;
 }
 
 #welcome-section {
     margin: 0 auto;
-    margin-top: 78px;
     height: 100vh;
     display: block;
 }
@@ -97,6 +88,12 @@ main {
     }
 }
 
+#bordercut {
+    text-align: center;
+    background-image: url(./img/RobinGoldFlo.png);
+    background-size: cover;
+}
+
 #projects {
     background-color: rgba(245, 222, 179, 0.61);
     margin: 0 auto;
@@ -105,26 +102,29 @@ main {
 #projects .row {
     margin: 0 auto;
     width: 100%;
-    height: 500px;
+    height: auto;
+    background-color: #042f4b;
 }
 
 #projects .col-6 {
-    padding-top: 28px;
     text-align: center;
-    background-color: #042f4b;
-    color: #FFBF00;
-}
-
-#dictionaryApp, #weatherApp, #tributePage {
     background-image: url(./img/Robin.png);
     background-size: cover;
+    color: #FFBF00;
+    border: .5px solid #ffbf008e;
+    padding: 32px 8px;
 }
 
-#projects h1, #projects p {
+#projects h1 {
+    margin: 0 auto;
+    margin-top: 18px;
+    width: 88%;
     background-color: rgba(51, 51, 51, 0.932);
+    border: .5px solid #ffbf008e;
 }
 
 #projects img {
     margin: 0 auto;
-    width: 100%;
+    width: 88%;
+    border: .5px solid #ffbf008e;
 }
