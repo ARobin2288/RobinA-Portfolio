@@ -13,7 +13,7 @@ nav {
   position: relative;
   text-align: left;
   top: -28px;
-  left: -68px;
+  left: -82px;
 }
 
 .container .links {
@@ -39,16 +39,8 @@ nav a:hover {
   color: #ee5455;
 }
 
-@media (max-width: 600px) {
-  .container {
-    left: -8px;
-  }
-}
-
 main {
   margin: 0 auto;
-  padding-top: 248px;
-  padding-bottom: 108px;
   text-align: center;
   margin-left: -8px;
   margin-right: -8px;
@@ -59,18 +51,26 @@ main {
 #welcome-section {
   margin: 0 auto;
   height: 100vh;
-  display: block;
+  padding-top: 188px;
+}
+
+#welcome-section img {
+  margin: 0 auto;
+  width: 288px;
+  border-radius: 50%;
+  border: 2px solid goldenrod;
+  margin-bottom: -128px;
 }
 
 #intro {
-  padding: 18px 0;
+  padding: 128px 0 18px 0;
   background-color: rgba(119, 136, 153, 0.877);
   box-shadow: 1px 8px 22px rgba(0, 0, 0, 0.452);
   color: aliceblue;
 }
 
 #welcome-section h1 {
-  font-size: 98px;
+  font-size: 88px;
   letter-spacing: 2px;
   font-family: "Zilla Slab", serif;
   font-weight: 300;
@@ -98,7 +98,6 @@ main {
   padding: 108px 28px 108px 28px;
   text-align: center;
 }
-
 
 #certificates img {
   width: 82px;
@@ -146,4 +145,19 @@ main {
   margin: 0 auto;
   width: 88%;
   border: 0.5px solid #ffbf008e;
+}
+
+@media (max-width: 1500px) {
+  .container {
+    left: -52px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    left: -8px;
+  }
+  #welcome-section img {
+    width: 300px;
+  }
 }
