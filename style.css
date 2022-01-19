@@ -29,7 +29,7 @@ nav {
   width: 100%;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: black;
+  color: #212f3c;
   text-decoration: none;
   font-weight: bolder;
   font-size: 20px;
@@ -38,7 +38,7 @@ nav {
 }
 
 nav img {
-  transition: all 0.5s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 nav img:hover {
@@ -46,7 +46,7 @@ nav img:hover {
 }
 
 nav a:hover {
-  color: #ee5455;
+  color: aliceblue;
   text-decoration: line-through;
 }
 
@@ -69,14 +69,13 @@ main {
   margin: 0 auto;
   width: 328px;
   border-radius: 50%;
-  border: 2px solid goldenrod;
   margin-bottom: -128px;
+  box-shadow: 1px 8px 22px rgba(0, 0, 0, 0.452);
 }
 
 #intro {
   padding: 128px 0 18px 0;
   background-color: rgba(119, 136, 153, 0.877);
-  box-shadow: 1px 8px 22px rgba(0, 0, 0, 0.452);
   color: aliceblue;
 }
 
@@ -108,19 +107,46 @@ main {
 
 #certificates {
   margin: 0 auto;
-  padding: 108px 28px 108px 28px;
+  padding: 28px 28px 68px 28px;
   text-align: center;
+}
+
+#certificates h3 {
+  padding-bottom: 68px;
+  text-align: left;
+  font-size: 52px;
+  text-decoration: underline 2.5px;
+  font-family: "Licorice", cursive;
+  letter-spacing: 2px;
+  text-underline-offset: 5px;
+  color: #212f3c;
 }
 
 #certificates img {
   width: 82px;
+  transition: all 2.5s ease;
 }
 
-#certificates h3 a {
-  padding-top: 38px;
+#certificates img:hover {
+  transform: rotate(90deg);
+}
+
+#certificates p {
+  padding-top: 22px;
+}
+
+#certificates p a {
   font-family: "Roboto Condensed", sans-serif;
   color: black;
   font-size: 22px;
+  letter-spacing: 1px;
+  text-underline-offset: 2px;
+  text-decoration: none;
+}
+
+#certificates a:hover {
+  color: rgba(119, 136, 153, 0.877);
+  text-decoration: line-through;
 }
 
 #projects {
@@ -129,10 +155,14 @@ main {
 }
 
 #projects h3 {
-  padding: 8px 0 8px 50px;
-  font-size: 48px;
-  color: #064635;
-  text-decoration: underline 2.6px;
+  padding: 8px 0 8px 28px;
+  text-align: left;
+  font-size: 52px;
+  text-decoration: underline 2.5px;
+  font-family: "Licorice", cursive;
+  letter-spacing: 2px;
+  text-underline-offset: 5px;
+  color: #212f3c;
 }
 
 #projects .row {
@@ -159,6 +189,17 @@ main {
   margin: 0 auto;
   width: 88%;
   border: 0.5px solid #ffbf008e;
+}
+
+#contact h3 {
+  padding-left: 28px;
+  text-align: left;
+  font-size: 52px;
+  text-decoration: underline 2.5px;
+  text-underline-offset: 5px;
+  font-family: "Licorice", cursive;
+  letter-spacing: 2px;
+  color: #212f3c;
 }
 
 @media (max-width: 1500px) {
