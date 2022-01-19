@@ -18,25 +18,36 @@ nav {
 
 .container .links {
   position: absolute;
-  top: 48px;
-  left: 38px;
+  top: 42px;
+  left: 62px;
 }
 
 .links a,
 .links p {
   margin: 0 auto;
+  padding-top: 8px;
   width: 100%;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
   color: black;
   text-decoration: none;
   font-weight: bolder;
   font-size: 20px;
   transition: all 0.2s ease-out;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+nav img {
+  transition: all 0.5s ease-in-out;
+}
+
+nav img:hover {
+  transform: skew(22deg, 8deg);
 }
 
 nav a:hover {
   color: #ee5455;
+  text-decoration: line-through;
 }
 
 main {
@@ -56,7 +67,7 @@ main {
 
 #welcome-section img {
   margin: 0 auto;
-  width: 288px;
+  width: 328px;
   border-radius: 50%;
   border: 2px solid goldenrod;
   margin-bottom: -128px;
@@ -70,17 +81,19 @@ main {
 }
 
 #welcome-section h1 {
-  font-size: 88px;
-  letter-spacing: 2px;
-  font-family: "Zilla Slab", serif;
+  padding-top: 22px;
+  font-size: 118px;
+  font-family: "Licorice", cursive;
   font-weight: 300;
-  margin-bottom: 38px;
+  margin-bottom: 18px;
 }
 
 #welcome-section h2 {
   letter-spacing: 1.5px;
   font-size: 28px;
-  font-family: "Special Elite", cursive;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
+  padding-bottom: 22px;
 }
 
 #typewriter span {
@@ -103,9 +116,10 @@ main {
   width: 82px;
 }
 
-#certificates h3 {
+#certificates h3 a {
   padding-top: 38px;
-
+  font-family: "Roboto Condensed", sans-serif;
+  color: black;
   font-size: 22px;
 }
 
@@ -159,5 +173,11 @@ main {
   }
   #welcome-section img {
     width: 300px;
+  }
+  #welcome-section h1 {
+    font-size: 88px;
+  }
+  #welcome-section h2 {
+    font-size: 18px;
   }
 }
