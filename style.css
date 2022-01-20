@@ -61,7 +61,7 @@ main {
 
 #welcome-section {
   margin: 0 auto;
-  height: 100vh;
+  height: 138vh;
   padding-top: 188px;
 }
 
@@ -135,8 +135,9 @@ main {
   padding-top: 22px;
 }
 
-#certificates p a {
+#certificates a {
   font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
   color: black;
   font-size: 22px;
   letter-spacing: 1px;
@@ -151,11 +152,12 @@ main {
 
 #projects {
   margin: 0 auto;
-  background-color: aliceblue;
+  background-color: #212f3c15;
+  padding-bottom: 188px;
 }
 
 #projects h3 {
-  padding: 8px 0 8px 28px;
+  padding: 28px 0 8px 28px;
   text-align: left;
   font-size: 52px;
   text-decoration: underline 2.5px;
@@ -163,6 +165,7 @@ main {
   letter-spacing: 2px;
   text-underline-offset: 5px;
   color: #212f3c;
+  margin-bottom: 0;
 }
 
 #projects .row {
@@ -171,24 +174,57 @@ main {
   height: auto;
 }
 
-#projects .col-6 {
+#projects .project-tile {
+  margin: 0 auto;
   text-align: center;
-  color: #ffbf00;
-  padding: 32px 8px;
+  padding: 38px 22px; 
 }
 
 #projects h1 {
   margin: 0 auto;
-  margin-top: 18px;
-  width: 88%;
-  background-color: rgba(51, 51, 51, 0.932);
-  border: 0.5px solid #ffbf008e;
+  margin-top: 28px;
+  margin-bottom: 12px;
+  width: 68%;
+  background-color: #2a3b5a;
+  border-radius: 2%;
+  padding-top: 368px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1.8px;
+  padding-bottom: 12px;
+  font-size: 32px;
+}
+
+#projects a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+#projects a:hover {
+  text-decoration: line-through;
+  color: #8CC7D3;
 }
 
 #projects img {
   margin: 0 auto;
+  margin-bottom: -448px;
   width: 88%;
-  border: 0.5px solid #ffbf008e;
+  border-radius: 4px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.452);
+  transition: all 1s ease-in-out;
+}
+
+.project-tile img:hover {
+  transform: scale(1.1);
+}
+
+#contact {
+  margin: 0 auto;
+  height: fit-content;
+  background-image: url(./img/pexels-anni-roenkae-2382738.jpg);
+  background-size: cover;
+  background-color: #d8e0e0d2;
+  padding: 38px 28px;
 }
 
 #contact h3 {
@@ -199,12 +235,22 @@ main {
   text-underline-offset: 5px;
   font-family: "Licorice", cursive;
   letter-spacing: 2px;
-  color: #212f3c;
+  color: aliceblue;
+
 }
 
 @media (max-width: 1500px) {
   .container {
     left: -52px;
+  }
+}
+
+@media (max-width: 1000px) {
+  #projects h1 {
+    padding-top: 288px;
+  }
+  #projects img {
+    margin-bottom: -368px;
   }
 }
 
@@ -220,5 +266,12 @@ main {
   }
   #welcome-section h2 {
     font-size: 18px;
+  }
+  #projects h1 {
+    padding-top: 88px;
+    margin-top: 2px;
+  }
+  #projects img {
+    margin-bottom: -82px;
   }
 }
