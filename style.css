@@ -274,33 +274,36 @@ main {
   font-weight: 300;
 }
 
-#contact .social-media {
-  margin: 0 auto;
-  padding: 8px 0 28px 0;
+#profile-link {
+  font-size: 222px;
 }
 
-#contact .social-media a {
+#contact .connect .social {
   text-decoration: none;
   color: aliceblue;
   font-size: 38px;
   padding: 0 22px;
 }
 
-.social-media a i:hover {
+#contact .social i:hover {
   color: #8CC7D3;
 }
 
-.connect p {
+
+#contact .email {
   color: aliceblue;
   font-size: 22px;
+  padding-top: 22px;
 }
 
-.connect p a {
+#contact .email a {
   color: aliceblue;
+  padding: 0;
+  font-size: 22px;
   text-decoration: line-through;
 }
 
-.connect a:hover {
+#contact .email a:hover {
   text-decoration: underline;
   color: #8CC7D3;
 }
@@ -308,7 +311,6 @@ main {
 footer {
   margin-bottom: -8px;
   text-align: left;
-  padding-top: 82px;
   font-size: 10px;
   font-weight: 100;
 }
