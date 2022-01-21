@@ -149,6 +149,10 @@ main {
   transform: rotate3d(-18, 6, 22, -0.8turn);
 }
 
+#certificates .star-five:hover {
+  transform: rotate3d(-9, -13, 7, -0.5turn);
+}
+
 #certificates p {
   padding-top: 22px;
 }
