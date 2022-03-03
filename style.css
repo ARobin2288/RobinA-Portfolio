@@ -179,7 +179,7 @@ main {
 }
 
 #projects h3 {
-  padding: 28px 0 8px 28px;
+  padding: 88px 0 8px 28px;
   text-align: left;
   font-size: 52px;
   text-decoration: underline 2.5px;
@@ -199,14 +199,15 @@ main {
 #projects .project-tile {
   margin: 0 auto;
   text-align: center;
-  padding: 38px 22px; 
+  padding: 38px 22px;
 }
 
 #projects h1 {
   margin: 0 auto;
-  margin-top: 28px;
-  width: 78%;
-  background: linear-gradient(to right, #868f96 0%, #596164 100%);  padding-top: 308px;
+  margin-top: 88px;
+  width: 88%;
+  background: linear-gradient(to right, #868f96 0%, #596164 100%);
+  padding-top: 308px;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 300;
   letter-spacing: 1.8px;
@@ -220,13 +221,12 @@ main {
   text-decoration: underline 2px;
   color: aliceblue;
   text-underline-offset: 6px;
-  transition: all .2s ease;
-  line-height: 30px;
+  transition: all 0.2s ease;
 }
 
 #projects a:hover {
   text-decoration: line-through 2px;
-  color: #8CC7D3;
+  color: #8cc7d3;
   transform: rotate3d(1, 1, 1, 45deg);
 }
 
@@ -296,9 +296,8 @@ main {
 }
 
 #contact .social i:hover {
-  color: #8CC7D3;
+  color: #8cc7d3;
 }
-
 
 #contact .email {
   color: aliceblue;
@@ -315,7 +314,7 @@ main {
 
 #contact .email a:hover {
   text-decoration: underline;
-  color: #8CC7D3;
+  color: #8cc7d3;
 }
 
 footer {
@@ -373,7 +372,9 @@ footer {
   #welcome-section h2 {
     font-size: 18px;
   }
-  #certificates h3, #projects h3, #contact h3 {
+  #certificates h3,
+  #projects h3,
+  #contact h3 {
     font-size: 32px;
   }
   #certificates a {
@@ -388,5 +389,4 @@ footer {
   #projects img {
     margin-bottom: -198px;
   }
-
 }
